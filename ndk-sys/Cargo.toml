@@ -14,7 +14,7 @@ rust-version = "1.60"
 categories = ["os", "os::android-apis", "external-ffi-bindings"]
 
 [dependencies]
-jni-sys = "0.3.0"
+jni-sys = { git = "https://github.com/jni-rs/jni-sys.git", rev = "9c38766" }
 
 [features]
 test = []
